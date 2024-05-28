@@ -1,0 +1,30 @@
+﻿@model LibraryData
+@{
+    Layout = "_Layout";
+}
+<div class="row">
+    <div class="col-md-6">
+        <form method="post" asp-controller="Library" asp-action="AddLibrary">
+            <div class="row">
+                <div class="col-md-4">
+                    <label asp-for="Name"></label>
+                </div>
+                <div class="col-md-8">
+                    <input asp-for="Name"/>
+                    <span asp-validation-for="Name"></span>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <label asp-for="Place"></label>
+                </div>
+                <div class="col-md-8">
+                    <input asp-for="Place" />
+                    <span asp-validation-for="Place"></span>
+                </div>
+            </div>
+           
+        </form>
+    </div>
+</div>
