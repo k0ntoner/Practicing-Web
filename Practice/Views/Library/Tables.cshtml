@@ -1,0 +1,24 @@
+﻿@model LibraryData
+
+@{
+    
+}
+
+
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Place</th>
+      
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.Title)</td>
+            <td>@Html.DisplayFor(modelItem => item.Author)</td>
+            <td>@Html.DisplayFor(modelItem => item.Year)</td>
+        </tr>
+    }
+</table>

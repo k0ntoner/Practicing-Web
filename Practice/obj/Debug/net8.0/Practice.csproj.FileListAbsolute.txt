@@ -28,3 +28,4 @@ C:\Users\Andrew\Desktop\Дз\Дз АС\Practice\Practice\obj\Debug\net8.0\refint
 C:\Users\Andrew\Desktop\Дз\Дз АС\Practice\Practice\obj\Debug\net8.0\Practice.pdb
 C:\Users\Andrew\Desktop\Дз\Дз АС\Practice\Practice\obj\Debug\net8.0\Practice.genruntimeconfig.cache
 C:\Users\Andrew\Desktop\Дз\Дз АС\Practice\Practice\obj\Debug\net8.0\ref\Practice.dll
+C:\Users\Andrew\Desktop\Дз\Дз АС\Practice\Practice\obj\Debug\net8.0\Practice.sourcelink.json
